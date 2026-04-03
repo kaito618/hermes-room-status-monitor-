@@ -1,0 +1,8 @@
+Component,Description,Qty,Price (EGP),Source / Link
+Microcontroller,Seeed Studio XIAO RP2040,1,499.00,https://www.amazon.eg/-/en/gp/product/B0GHNR74YH/
+Sensor,SHT31 High-Precision Temp & Humidity (I^2C),1,195.00,https://www.ram-e-shop.com/shop/kit-sht31-sht31-temperature-humidity-sensor-module-9216
+Display,0.96" OLED 128x64 (I^2C SSD1306),1,160.00,https://www.ram-e-shop.com/shop/oled-0-96-4pin-oled-0-96-4pin-lcd-display-module-i2c-iic-communicate-7772
+Buttons,mx switches (THT),2,175.00,https://www.amazon.eg/-/en/gp/product/B0GRPPX2T6/
+Resistors,10k Ohm 1/4W (Pull-ups for I^2C),2,4.00,https://www.ram-e-shop.com/shop/carbon-resistance-1-4w-price-per-4-resistors-9506#attr=301
+capacitors,2.54mm Female Header Strip (1x40),2,2.00,https://www.ram-e-shop.com/shop/c-10u25v-capacitor-10uf-25v-6095
+TOTAL,Estimated Project Cost,,~1034.00,19.03 USD
