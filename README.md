@@ -32,5 +32,22 @@ i finished the pcb layout and wiring and getting my 3d models ready
 
 ![Screenshot_2026-04-04_01-18-53](https://github.com/user-attachments/assets/810bbcb0-700a-4280-9a9e-307ef0c16edc)
 
+## 🛠 Bill of Materials (BOM)
+
+| Component | Description | Qty | Est. Price (EGP) | Source / Link |
+| :--- | :--- | :---: | :--- | :--- |
+| **Microcontroller** | Seeed Studio XIAO RP2040 | 1 | 499 | [amazoneg](https://www.amazon.eg/-/en/gp/product/B0GHNR74YH/ref=ewc_pr_img_2?smid=A1FZS2ISSCLNWQ&psc=1) |
+| **Sensor** | SHT31 High-Precision Temp & Humidity ($I^2C$) | 1 | 195.00 | [RAM Electronics](https://www.ram-e-shop.com/shop/kit-sht31-sht31-temperature-humidity-sensor-module-9216) |
+| **Display** | 0.96" OLED 128x64 ($I^2C$ SSD1306) | 1 | 160.00 | [RAM Electronics](https://www.ram-e-shop.com/shop/oled-0-96-4pin-oled-0-96-4pin-lcd-display-module-i2c-iic-communicate-7772) |
+| **Buttons** | mx switches (THT) | 2 | 175 | [amazoneg](https://www.amazon.eg/-/en/gp/product/B0GRPPX2T6/ref=ewc_pr_img_1?smid=A209IF81KPKFRD&psc=1) |
+| **Resistors** | 10k Ohm 1/4W (Pull-ups for $I^2C$) | 2 | 4 | [RAM Electronics](https://www.ram-e-shop.com/shop/carbon-resistance-1-4w-price-per-4-resistors-9506#attr=301) |
+| **capacitors** | 2.54mm Female Header Strip (1x40) | 2 | 2 | [RAM Electronics](https://www.ram-e-shop.com/shop/c-10u25v-capacitor-10uf-25v-6095) |
+
+| **TOTAL** | **Estimated Project Cost** | | **~1034egp 19.03 usd** | |
+
+### 📋 Component Justification (for HCB Grant)
+* **XIAO RP2040:** Chosen for its powerful dual-core processor and compact form factor, ideal for wearable or small-scale monitoring.
+* **SHT31 Sensor:** Upgraded from SHT30 for superior $\pm0.2$°C accuracy and high reliability in local Cairo humidity conditions.
+* **I2C Architecture:** Both the display and sensor share the same $I^2C$ bus (SDA/SCL), reducing PCB complexity and pin usage.
 
 
