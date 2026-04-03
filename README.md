@@ -45,9 +45,5 @@ i finished the pcb layout and wiring and getting my 3d models ready
 
 | **TOTAL** | **Estimated Project Cost** | | **~1034egp 19.03 usd** | |
 
-### 📋 Component Justification (for HCB Grant)
-* **XIAO RP2040:** Chosen for its powerful dual-core processor and compact form factor, ideal for wearable or small-scale monitoring.
-* **SHT31 Sensor:** Upgraded from SHT30 for superior $\pm0.2$°C accuracy and high reliability in local Cairo humidity conditions.
-* **I2C Architecture:** Both the display and sensor share the same $I^2C$ bus (SDA/SCL), reducing PCB complexity and pin usage.
 
 
